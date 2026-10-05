@@ -24,7 +24,7 @@ if not os.path.exists(SAVE_DIR):
 try:
     ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 except Exception:
-    ADMIN_PASSWORD = "1234"   # فقط برای تست؛ در نسخه آنلاین حتماً Secret تنظیم کنید.
+    ADMIN_PASSWORD = "#admin44500#"   # فقط برای تست؛ در نسخه آنلاین حتماً Secret تنظیم کنید.
 
 
 # =========================
@@ -324,4 +324,3 @@ if page == "📝 فرم ثبت اطلاعات":
 # =========================================================
 else:
     admin_panel()
-
